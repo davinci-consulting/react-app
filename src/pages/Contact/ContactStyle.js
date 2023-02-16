@@ -40,13 +40,13 @@ export const TitleGroup = styled.div`
 `
 
 export const Title = styled.div`
-    color: #222222;
-    font: 500 3rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 500 2.5rem "Circular", sans-serif;
 `
 
 export const Subtitle = styled.div`
-    color: #222222;
-    font: 400 1.2rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 400 1.1rem "Circular", sans-serif;
 `
 
 export const MultipleItem = styled.div`
@@ -59,21 +59,21 @@ export const MultipleItem = styled.div`
 export const FormGroup = styled.div`
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .6rem;
     width: 100%;
 `
 
 export const Label = styled.label`
-    color: #222222;
-    font: 400 1.1rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 400 1.05rem "Circular", sans-serif;
 `
 
 export const Input = styled.input`
     border: 1px solid #DADADA;
     border-radius: .3rem;
     padding: 1rem;
-    color: #222222;
-    font: 400 1.1rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 400 1.05rem "Circular", sans-serif;
 
     &:focus {
         border-color: #a19e9e;
@@ -86,8 +86,12 @@ export const Textarea = styled.textarea`
     border-radius: .3rem;
     padding: 1rem;
     resize: none;
-    color: #222222;
-    font: 400 1.1rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 400 1.05rem "Circular", sans-serif;
+
+    &:focus {
+        border-color: #a19e9e;
+    }
 `
 
 export const Button = styled.button`
@@ -97,8 +101,8 @@ export const Button = styled.button`
     padding: 1rem;
     opacity: 1;
     color: #FFFFFF;
-    font: 400 1.1rem "Roboto", sans-serif;
-    transition: .3s;
+    font: 400 1.05rem "Circular", sans-serif;
+    transition: .2s;
 
     &:disabled {
         opacity: .5;
@@ -164,20 +168,20 @@ export const Locations = styled.div`
 `
 
 export const LocationsSubtitle = styled.div`
-   color: #444444;
-    font: 500 1.2rem "Roboto",sans-serif;
+   color: #181a1e;
+    font: 500 1.1rem "Circular",sans-serif;
     margin: 0 0 .5rem;
 `
 
 export const LocationsTitle = styled.div`
-    color: #222222;
-    font: 500 1.8rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 500 1.6rem "Circular", sans-serif;
     margin: 0 0 1.1rem;
 `
 
 export const LocationsText = styled.div`
-    color: #444444;
-    font: 400 1.2rem "Roboto", sans-serif;
+    color: #55585e;
+    font: 400 1.2rem "Circular", sans-serif;
 `
 
 export const Item = styled.div`
@@ -188,11 +192,11 @@ export const Item = styled.div`
 `
 
 export const City = styled.div`
-    color: #222222;
-    font: 500 1.2rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 500 1.2rem "Circular", sans-serif;
 `
 
 export const Address = styled.div`
-    color: #444444;
-    font: 400 1rem "Roboto", sans-serif;
+    color: #55585e;
+    font: 400 1rem "Circular", sans-serif;
 `

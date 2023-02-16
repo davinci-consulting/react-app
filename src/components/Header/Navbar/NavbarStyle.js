@@ -9,12 +9,12 @@ export const Navbar = styled.nav`
     width: 100%;
     border-bottom: 1px solid transparent;
     padding: 2rem 0;
-    transition: all .3s;
+    transition: all .2s;
     z-index: 6;
 
     &.is-scroll {
         background-color: #FFFFFF;
-        border-color: #0000000f;
+        border-color: #e5e9ed;
     }
 `
 
@@ -23,15 +23,15 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 1350px;
-`
 
-export const Logo = styled.span`
-    background: -webkit-linear-gradient(180deg, #222222 61%, #60a4fc 60%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font: 600 1.9rem/1 "Poppins", sans-serif;
-    letter-spacing: 0.8px;
+    .logo {
+        background: -webkit-linear-gradient(180deg, #181a1e 61%, #60a4fc 60%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font: 600 1.9rem/1 "Poppins", sans-serif;
+        letter-spacing: 0.8px;
+    }
 `
 
 export const LinkItems = styled.div`
@@ -41,8 +41,8 @@ export const LinkItems = styled.div`
     .link-item {
         position: relative;
         padding: 0 0 .3rem;
-        color: #222222;
-        font: 500 1rem "Roboto", sans-serif;
+        color: #54606c;
+        font: 400 1.05rem "Circular", sans-serif;
         
         &::after {
             position: absolute;

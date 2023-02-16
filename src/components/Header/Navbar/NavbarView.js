@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
-import { Link } from "react-scroll"
-import { NavbarData } from "../../../data/Navbar"
+import { NavLink } from "react-router-dom"
 import * as Styled from "./NavbarStyle"
 
 export default function Navbar() {
@@ -13,18 +12,21 @@ export default function Navbar() {
     useEffect(() => {
         window.addEventListener("scroll", listenScrollEvent);
         return () => {
-            window.removeEventListener("scroll", listenScrollEvent);
+            window.removeEventListener("scroll", listenScrollEvent)
         }
     }, [])
 
     return (
         <Styled.Navbar className={isScroll}>
             <Styled.Container>
-                <Styled.Logo>davinci-consulting</Styled.Logo>
+                <NavLink className="logo" to="/">davinci-consulting</NavLink>
                 <Styled.LinkItems>
-                    {NavbarData.map((item, index) => {
-                        return <Link activeClass="active" className="link-item" to={item.to} spy={true} smooth={true} offset={-95} duration={500} key={index}>{item.name}</Link>
-                    })}
+                        <NavLink className="link-item" to="/" >Home</NavLink>
+                        <NavLink className="link-item" to="/about" >About</NavLink>
+                        <NavLink className="link-item" to="/services">Services</NavLink>
+                        <NavLink className="link-item" to="/careers">Careers</NavLink>
+                        <NavLink className="link-item" to="/contact">Contact</NavLink>
+                        <NavLink className="link-item" to="/intern">Intern</NavLink>
                 </Styled.LinkItems>
             </Styled.Container>
         </Styled.Navbar>

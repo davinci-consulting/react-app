@@ -23,13 +23,13 @@ export const Content = styled.div`
 `
 
 export const Title = styled.h1`
-    color: #222222;
-    font: 600 2.8rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 600 3rem "Circular", sans-serif;
 `
 
 export const Subtitle = styled.h3`
-    color: #5c5c5c;
-    font: 400 1.1rem "Roboto", sans-serif;
+    color: #181a1e;
+    font: 400 1.2rem "Circular", sans-serif;
 `
 
 export const ButtonGroup = styled.div`
@@ -46,8 +46,8 @@ export const ButtonGroup = styled.div`
         border-radius: 100rem;
         padding: 1rem 2rem;
         color: #FFFFFF;
-        font: 500 1rem "Roboto", sans-serif;
-        transition: .3s;
+        font: 500 1.1rem "Circular", sans-serif;
+        transition: .2s;
 
         &.secondary {
             background-color: transparent;

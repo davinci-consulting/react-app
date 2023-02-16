@@ -1,5 +1,5 @@
 import * as Styled from "./AboutStyle"
-import AboutImage from "../../images/TXxiFuQLBKQ.jpg"
+import AboutImage from "../../../../images/u3hmzw5U.jpg"
 import { ArrowRightLine } from "../../../../components/Icons/IconsView"
 import { NavLink } from "react-router-dom"
 
@@ -8,7 +8,7 @@ export default function About() {
         <Styled.About id="about">
             <Styled.Container>
                 <Styled.ImageContent>
-                    <Styled.Image src="https://ld-wp73.template-help.com/wordpress/prod_5372/v1/wp-content/uploads/2019/10/img-1.jpg" />
+                    <Styled.Image src={AboutImage} />
                     <Styled.ImageAbsolute />
                 </Styled.ImageContent>
                 <Styled.TextWrapper>
