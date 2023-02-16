@@ -25,12 +25,12 @@ export const Content = styled.div`
 
 export const Title = styled.h1`
     color: #222222;
-    font: 700 2.8rem "Open Sans", sans-serif;
+    font: 600 2.8rem "Roboto", sans-serif;
 `
 
 export const Subtitle = styled.h3`
     color: #5c5c5c;
-    font: 500 1.1rem "Open Sans", sans-serif;
+    font: 400 1.1rem "Roboto", sans-serif;
 `
 
 export const ButtonGroup = styled.div`
@@ -48,5 +48,19 @@ export const Button = styled.div`
     border-radius: 100rem;
     padding: 1rem 2rem;
     color: ${props => props.primary ? "#FFFFFF" : "#60a4fc"};
-    font: 500 1rem "Open Sans", sans-serif;
+    font: 500 1rem "Roboto", sans-serif;
+    transition: .3s;
+
+    &:hover {
+        background-color: #5398f1;
+        border-color: #5398f1;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: #377edb;
+        border-color: #377edb;
+        color: #FFFFFF;
+    }
 `

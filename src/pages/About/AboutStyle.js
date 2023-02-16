@@ -45,17 +45,17 @@ export const TextContent = styled.div`
 
 export const Title = styled.h3`
     color: #427dc9;
-    font: 700 1.4rem "Open Sans", sans-serif;
+    font: 700 1.4rem "Roboto", sans-serif;
 `
 
 export const Subtitle = styled.h4`
     color: #444444;
-    font: italic 500 1rem "Open Sans", sans-serif;
+    font: italic 500 1rem "Roboto", sans-serif;
 `
 
 export const Paragraph = styled.p`
     margin: 1rem 0 0;
     color: #444444;
-    font: 400 1rem "Open Sans", sans-serif;
+    font: 400 1rem "Roboto", sans-serif;
     line-height: 1.6rem;
 `

@@ -24,12 +24,12 @@ export const TitleGroup = styled.div`
 
 export const Title = styled.div`
     color: #444444;
-    font: 700 2rem "Open Sans", sans-serif;
+    font: 700 2rem "Roboto", sans-serif;
 `
 
 export const ColorfulTitle = styled.div`
     color: #60a4fc;
-    font: 700 2rem "Open Sans", sans-serif;
+    font: 700 2rem "Roboto", sans-serif;
 `
 
 export const ItemList = styled.div`
@@ -60,14 +60,14 @@ export const ItemContainer = styled.div`
 
 export const ItemTitle = styled.div`
     color: #60a4fc;
-    font: 600 1.3rem "Open Sans", sans-serif;
+    font: 600 1.3rem "Roboto", sans-serif;
     text-align: center;
     margin: 1rem 0 0;
 `
 
 export const ItemText = styled.div`
     color: #444444;
-    font: 400 .95rem "Open Sans", sans-serif;
+    font: 400 .95rem "Roboto", sans-serif;
     text-align: center;
     margin: .5rem 0 0;
 `

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { NavbarData } from "../../../data/Navbar"
 import * as Styled from "./NavbarStyle"
 
 export default function Navbar() {
@@ -20,13 +21,9 @@ export default function Navbar() {
             <Styled.Container>
                 <Styled.Logo>davinci-consulting</Styled.Logo>
                 <Styled.LinkItems>
-                    <Styled.LinkItem className="active">Home</Styled.LinkItem>
-                    <Styled.LinkItem>About</Styled.LinkItem>
-                    <Styled.LinkItem>Services</Styled.LinkItem>
-                    <Styled.LinkItem>Feedbacks</Styled.LinkItem>
-                    <Styled.LinkItem>Contact</Styled.LinkItem>
-                    <Styled.LinkItem>Careers</Styled.LinkItem>
-                    <Styled.LinkItem>Intern</Styled.LinkItem>
+                    {NavbarData.map((item, index) => {
+                        return <Styled.LinkItem key={index}>{item.name}</Styled.LinkItem>
+                    })}
                 </Styled.LinkItems>
             </Styled.Container>
         </Styled.Navbar>

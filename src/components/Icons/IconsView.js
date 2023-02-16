@@ -49,3 +49,11 @@ export const Pencil = ({width, height, fill, stroke, strokeWidth}) => {
 export const Table = ({width, height, fill, stroke, strokeWidth}) => {
     return <svg width={width} height={height} fill={fill} stroke={stroke} strokeWidth={strokeWidth} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2Z"></path></svg>
 }
+
+export const ChevronLeftArrow = ({width, height, fill, stroke, strokeWidth}) => {
+    return <svg width={width} height={height} fill={fill} stroke={stroke} strokeWidth={strokeWidth} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m15 6-6 6 6 6"></path></svg>
+}
+
+export const ChevronRightArrow = ({width, height, fill, stroke, strokeWidth}) => {
+    return <svg width={width} height={height} fill={fill} stroke={stroke} strokeWidth={strokeWidth} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 6 6 6-6 6"></path></svg>
+}
