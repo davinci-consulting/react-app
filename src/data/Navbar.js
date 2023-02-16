@@ -2,26 +2,31 @@ export const NavbarData = [
     {
         id: 0,
         name: 'Home',
-        href: '#test',
+        to: 'hero',
     },
     {
         id: 1,
-        name: 'Services',
-        href: '#test',
+        name: 'About',
+        to: 'about',
     },
     {
         id: 2,
-        name: 'References',
-        href: '#test',
+        name: 'Services',
+        to: 'services',
     },
     {
         id: 3,
-        name: 'Contact',
-        href: '#test',
+        name: 'References',
+        to: 'references',
     },
     {
         id: 4,
+        name: 'Contact',
+        to: 'contact',
+    },
+    {
+        id: 5,
         name: 'Intern',
-        href: '#test',
+        to: '#test',
     },
 ]

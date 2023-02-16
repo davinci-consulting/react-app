@@ -12,7 +12,7 @@ export default function References() {
     const navigationNextRef = React.useRef(null)
 
     return (
-        <Styled.References>
+        <Styled.References id="references">
             <Styled.Container>
                 <Styled.TitleGroup>
                      <Styled.Title>Our</Styled.Title>

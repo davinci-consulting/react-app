@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-scroll"
 import { NavbarData } from "../../../data/Navbar"
 import * as Styled from "./NavbarStyle"
 
@@ -22,7 +23,7 @@ export default function Navbar() {
                 <Styled.Logo>davinci-consulting</Styled.Logo>
                 <Styled.LinkItems>
                     {NavbarData.map((item, index) => {
-                        return <Styled.LinkItem key={index}>{item.name}</Styled.LinkItem>
+                        return <Link activeClass="active" className="link-item" to={item.to} spy={true} smooth={true} offset={-95} duration={500} key={index}>{item.name}</Link>
                     })}
                 </Styled.LinkItems>
             </Styled.Container>

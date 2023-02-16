@@ -3,7 +3,7 @@ import AboutImage from "../../images/TXxiFuQLBKQ.jpg"
 
 export default function About() {
     return(
-        <Styled.About>
+        <Styled.About id="about">
             <Styled.Container>
                 <Styled.ImageContent>
                     <Styled.Image src={AboutImage} />

@@ -8,7 +8,6 @@ export const Hero = styled.div`
     background: linear-gradient(90deg, #FFFFFF 5%, transparent), url(${HeroBackground}) no-repeat center/cover;
     width: 100%;
     height: 700px;
-    margin: 0 0 5rem 0;
 `
 
 export const Container = styled.div`
@@ -37,30 +36,39 @@ export const ButtonGroup = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    .hero-btn {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        background-color: #60a4fc;
+        border: 1px solid #60a4fc;
+        border-radius: 100rem;
+        padding: 1rem 2rem;
+        color: #FFFFFF;
+        font: 500 1rem "Roboto", sans-serif;
+        transition: .3s;
+
+        &.secondary {
+            background-color: transparent;
+            color: #60a4fc;
+        }
+
+        &:hover {
+            background-color: #5398f1;
+            border-color: #5398f1;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: #377edb;
+            border-color: #377edb;
+            color: #FFFFFF;
+        }
+    }
 `
 
 export const Button = styled.div`
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    background-color: ${props => props.primary ? "#60a4fc" : "transparent"};
-    border: 1px solid #60a4fc;
-    border-radius: 100rem;
-    padding: 1rem 2rem;
-    color: ${props => props.primary ? "#FFFFFF" : "#60a4fc"};
-    font: 500 1rem "Roboto", sans-serif;
-    transition: .3s;
-
-    &:hover {
-        background-color: #5398f1;
-        border-color: #5398f1;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-
-    &:active {
-        background-color: #377edb;
-        border-color: #377edb;
-        color: #FFFFFF;
-    }
+    
 `

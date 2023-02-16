@@ -4,7 +4,7 @@ export const Services = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 8rem;
+    padding: 8rem 0 0;
 `
 
 export const Container = styled.div`

@@ -3,7 +3,7 @@ import { ServicesData } from '../../data/Services'
 
 export default function Services() {
     return (
-        <Styled.Services>
+        <Styled.Services id="services">
             <Styled.Container>
                 <Styled.TitleGroup>
                      <Styled.Title>Check out</Styled.Title>

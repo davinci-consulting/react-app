@@ -11,7 +11,7 @@ export default function Contact() {
     const enable = firstName && lastName && mail && message
 
     return (
-        <Styled.Contact>
+        <Styled.Contact id="contact">
             <Styled.Container>
                 <Styled.Form>
                     <Styled.FormContent>

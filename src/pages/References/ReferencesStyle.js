@@ -24,7 +24,7 @@ export const References = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 0 0 8rem;
+    padding: 8rem 0 0;
 
     .swiper-container {
         width: 1350px;
