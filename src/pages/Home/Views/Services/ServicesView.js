@@ -6,15 +6,15 @@ export default function Services() {
         <Styled.Services id="services">
             <Styled.Container>
                 <Styled.TitleGroup>
-                     <Styled.Title>Check out</Styled.Title>
-                     <Styled.ColorfulTitle>Services</Styled.ColorfulTitle>
+                     <Styled.BlackTitle>Our Services</Styled.BlackTitle>
                 </Styled.TitleGroup>
                 <Styled.ItemList>
                     {ServicesData.map((service, index) => {
-                        return <Styled.ItemContainer key={index}>
-                            <Styled.ItemIcon>{service.icon}</Styled.ItemIcon>
-                            <Styled.ItemTitle>{service.title}</Styled.ItemTitle>
-                            <Styled.ItemText>{service.text}</Styled.ItemText>
+                        return <Styled.ItemContainer key={index} style={{ backgroundImage: `url(${service.image})` }}>
+                            <div className="text-content-wrapper">
+                                <div className="text-content-title">{service.title}</div>
+                                <div className="text-content-text">{service.text}</div>
+                            </div>
                         </Styled.ItemContainer>
                     })}
                 </Styled.ItemList>

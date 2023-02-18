@@ -5,72 +5,99 @@ export const Services = styled.div`
     justify-content: center;
     align-items: center;
     margin: 8rem 0 0;
-    padding: 5rem 0 5rem;
-    background-color: #60a4fc;
 `
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 1350px;
 `
 
 export const TitleGroup = styled.div`
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-    margin: 0 0 2.5rem;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 0 2rem;
 `
 
-export const Title = styled.div`
-    color: #ffffff;
-    font: 600 2rem "Circular", sans-serif;
-`
-
-export const ColorfulTitle = styled.div`
+export const BlackTitle = styled.div`
     color: #181a1e;
-    font: 600 2rem "Circular", sans-serif;
+    font: 600 2.5rem "Circular", sans-serif;
 `
 
 export const ItemList = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    max-width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
 `
 
 export const ItemContainer = styled.div`
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20rem;
-    padding: 4.5rem 1.5rem;
-    transition: .2s;
-`
+    width: 18rem;
+    height: 20rem;
+    background-size: 100%;
+    background-position: center;
+    box-shadow: 0px 12px 15px 0px #c6c1bd;
+    border-radius: 0.5rem;
+    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 
-export const ItemIcon = styled.div`
-    display: grid;
-    place-content: center;
-    background-color: #FFFFFF;
-    box-shadow: 7px 5px 30px 0 #48497926;
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: .3rem;
-`
+    &::before {
+        position: absolute;
+        background: #00000099;
+        width: 100%;
+        height: 100%;
+        transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms cubic-bezier(0, 0, 0.2, 1);
+        content: '';
+    }
 
-export const ItemTitle = styled.div`
-    color: #fff;
-    font: 500 1.4rem "Circular", sans-serif;
-    text-align: center;
-    margin: 1rem 0 0;
-`
+    .text-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+        z-index: 1;
+        transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
-export const ItemText = styled.div`
-    color: #fff;
-    font: 400 1.05rem "Circular", sans-serif;
-    text-align: center;
-    margin: .8rem 0 0;
+        .text-content-title {
+            color: #fff;
+            font: 600 1.4rem "Circular", sans-serif;
+        }
+
+        .text-content-text {
+            display: none;
+            opacity: 0;
+            visibility: hidden;
+            color: #fff;
+            font: 400 1.05rem "Circular", sans-serif;
+            margin: .5rem 0 0;
+            transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1),opacity 100ms cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+
+    &:hover {
+        background-size: 105%!important;
+        transform: scale(1.02);
+        box-shadow: 0px 12.3px 15.37px 0px #3a3632;
+        cursor: pointer;
+
+        .text-content-wrapper {
+            transform: translateY(-10%);
+            transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
+            .text-content-text {
+                display: block;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
 `

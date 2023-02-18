@@ -21,20 +21,20 @@ export default function Contact() {
                         </Styled.TitleGroup>
                         <Styled.MultipleItem>
                             <Styled.FormGroup>
-                                <Styled.Label for="firstName">First name</Styled.Label>
+                                <Styled.Label htmlFor="firstName">First name</Styled.Label>
                                 <Styled.Input required id="firstName" type="text" placeholder="First Name" value={firstName} onChange={e => setFirstName(e.target.value)} />
                             </Styled.FormGroup>
                             <Styled.FormGroup>
-                                <Styled.Label for="lastName">Last name</Styled.Label>
+                                <Styled.Label htmlFor="lastName">Last name</Styled.Label>
                                 <Styled.Input required id="lastName" type="text" placeholder="Last Name" value={lastName} onChange={e => setLastName(e.target.value)} />
                             </Styled.FormGroup>
                         </Styled.MultipleItem>
                         <Styled.FormGroup>
-                            <Styled.Label for="mail">Email</Styled.Label>
+                            <Styled.Label htmlFor="mail">Email</Styled.Label>
                             <Styled.Input required id="mail" type="mail" placeholder="example@davinci-consulting.net" value={mail} onChange={e => setMail(e.target.value)} />
                         </Styled.FormGroup>
                         <Styled.FormGroup>
-                            <Styled.Label for="message">Message</Styled.Label>
+                            <Styled.Label htmlFor="message">Message</Styled.Label>
                             <Styled.Textarea required id="message" value={message} onChange={e => setMessage(e.target.value)} />
                         </Styled.FormGroup>
                         <Styled.Button disabled={!enable}>Send message</Styled.Button>

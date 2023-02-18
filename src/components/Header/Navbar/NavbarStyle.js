@@ -7,15 +7,10 @@ export const Navbar = styled.nav`
     display: flex;
     justify-content: center;
     width: 100%;
-    border-bottom: 1px solid transparent;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e5e9ed;
     padding: 2rem 0;
-    transition: all .2s;
     z-index: 6;
-
-    &.is-scroll {
-        background-color: #FFFFFF;
-        border-color: #e5e9ed;
-    }
 `
 
 export const Container = styled.div`

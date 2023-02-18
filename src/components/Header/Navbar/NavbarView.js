@@ -1,23 +1,9 @@
-import { useState, useEffect } from "react"
 import { NavLink } from "react-router-dom"
 import * as Styled from "./NavbarStyle"
 
 export default function Navbar() {
-    const [isScroll, setIsScroll] = useState('')
-
-    const listenScrollEvent = () => {
-        window.scrollY > 20 ? setIsScroll('is-scroll') : setIsScroll('')
-    }
-
-    useEffect(() => {
-        window.addEventListener("scroll", listenScrollEvent);
-        return () => {
-            window.removeEventListener("scroll", listenScrollEvent)
-        }
-    }, [])
-
     return (
-        <Styled.Navbar className={isScroll}>
+        <Styled.Navbar>
             <Styled.Container>
                 <NavLink className="logo" to="/">davinci-consulting</NavLink>
                 <Styled.LinkItems>

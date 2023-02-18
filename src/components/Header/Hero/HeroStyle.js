@@ -1,30 +1,31 @@
 import styled from "styled-components"
-import HeroBackground from "../../../images/v7d4Wm0ENls.jpg"
+import BlobImage from "../../../images/wZ6hGBg.jpg"
 
 export const Hero = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, #FFFFFF 5%, transparent), url(${HeroBackground}) no-repeat center/cover;
     width: 100%;
-    height: 700px;
+    padding: 8rem 0 5rem;
 `
 
 export const Container = styled.div`
+    display: flex;
+    justify-content: space-between;
     width: 1350px;
 `
 
-export const Content = styled.div`
+export const HeroTextContent = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2em;
-    width: 600px;
+    width: 700px;
 `
 
 export const Title = styled.h1`
     color: #181a1e;
-    font: 600 3rem "Circular", sans-serif;
+    font: 600 3.8rem "Circular", sans-serif;
 `
 
 export const Subtitle = styled.h3`
@@ -42,33 +43,33 @@ export const ButtonGroup = styled.div`
         align-items: center;
         gap: .5rem;
         background-color: #60a4fc;
-        border: 1px solid #60a4fc;
-        border-radius: 100rem;
-        padding: 1rem 2rem;
+        box-shadow: 5px 5px 0 0 #00000026;
+        border-radius: .3rem;
+        padding: 1rem 2.1rem;
         color: #FFFFFF;
         font: 500 1.1rem "Circular", sans-serif;
         transition: .2s;
 
-        &.secondary {
-            background-color: transparent;
-            color: #60a4fc;
-        }
-
         &:hover {
             background-color: #5398f1;
-            border-color: #5398f1;
-            color: #FFFFFF;
             cursor: pointer;
         }
 
         &:active {
             background-color: #377edb;
-            border-color: #377edb;
-            color: #FFFFFF;
+            box-shadow: 0 0 0 0 #00000026;
+            transform: translate(5px, 5px);
         }
     }
 `
 
-export const Button = styled.div`
-    
+export const HeroImageContent = styled.div`
+    width: 500px;
+    height: 500px;
+`
+
+export const HeroImage = styled.div`
+    background: url(${BlobImage}) no-repeat center/cover;
+    width: 100%;
+    height: 100%;
 `
