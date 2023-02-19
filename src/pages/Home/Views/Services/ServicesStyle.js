@@ -16,7 +16,7 @@ export const Container = styled.div`
 
 export const TitleGroup = styled.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     margin: 0 0 2rem;
 `

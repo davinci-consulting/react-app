@@ -15,8 +15,7 @@ export default function References() {
         <Styled.References id="references">
             <Styled.Container>
                 <Styled.TitleGroup>
-                     <Styled.Title>Our</Styled.Title>
-                     <Styled.ColorfulTitle>References</Styled.ColorfulTitle>
+                     <Styled.BlackTitle>References</Styled.BlackTitle>
                 </Styled.TitleGroup>
                 <Swiper
                     slidesPerView={3}

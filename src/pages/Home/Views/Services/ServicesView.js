@@ -6,7 +6,7 @@ export default function Services() {
         <Styled.Services id="services">
             <Styled.Container>
                 <Styled.TitleGroup>
-                     <Styled.BlackTitle>Our Services</Styled.BlackTitle>
+                     <Styled.BlackTitle>Services</Styled.BlackTitle>
                 </Styled.TitleGroup>
                 <Styled.ItemList>
                     {ServicesData.map((service, index) => {

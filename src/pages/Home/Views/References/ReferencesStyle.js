@@ -54,19 +54,13 @@ export const Container = styled.div`
 export const TitleGroup = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: .5rem;
-    margin: 0 0 2.5rem;
+    width: 100%;
+    margin: 0 0 2rem;
 `
 
-export const Title = styled.div`
+export const BlackTitle = styled.div`
     color: #181a1e;
-    font: 600 2rem "Circular", sans-serif;
-`
-
-export const ColorfulTitle = styled.div`
-    color: #60a4fc;
-    font: 600 2rem "Circular", sans-serif;
+    font: 600 2.5rem "Circular", sans-serif;
 `
 
 export const LeftArrow = styled.div`
