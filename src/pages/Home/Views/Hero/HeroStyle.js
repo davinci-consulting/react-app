@@ -1,12 +1,12 @@
 import styled from "styled-components"
-import BlobImage from "../../../images/wZ6hGBg.jpg"
+import BlobImage from "../../../../images/wZ6hGBg.jpg"
 
 export const Hero = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 8rem 0 5rem;
+    padding: 5rem 0;
 `
 
 export const Container = styled.div`

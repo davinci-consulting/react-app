@@ -25,7 +25,7 @@ export const Column = styled.div`
     gap: 1rem;
 `
 
-export const Title = styled.div`
+export const Title = styled.h2`
     color: #202832;
     font: 500 1rem "Circular", sans-serif;
 `

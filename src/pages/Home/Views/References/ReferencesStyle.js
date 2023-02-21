@@ -58,7 +58,7 @@ export const TitleGroup = styled.div`
     margin: 0 0 2rem;
 `
 
-export const BlackTitle = styled.div`
+export const BlackTitle = styled.h2`
     color: #181a1e;
     font: 600 2.5rem "Circular", sans-serif;
 `
@@ -117,7 +117,7 @@ export const ItemCategory = styled.div`
 `
 
 
-export const ItemTitle = styled.div`
+export const ItemTitle = styled.span`
     color: #FFFFFF;
     font: 500 1.3rem "Circular", sans-serif;
 `

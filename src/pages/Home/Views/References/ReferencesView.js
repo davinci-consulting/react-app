@@ -2,10 +2,10 @@ import React from "react"
 import { Navigation, Autoplay } from "swiper"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { ReferencesData } from "../../../../data/References"
+import { ChevronLeftArrow, ChevronRightArrow } from "../../../../components/Icons/IconsView"
 import * as Styled from "./ReferencesStyle"
 import "swiper/css"
 import "swiper/css/navigation"
-import { ChevronLeftArrow, ChevronRightArrow } from "../../../../components/Icons/IconsView"
 
 export default function References() {
     const navigationPrevRef = React.useRef(null)

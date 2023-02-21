@@ -1,5 +1,5 @@
 import React from "react"
-import Hero from "../../components/Header/Hero/HeroView"
+import Hero from "./Views/Hero/HeroView"
 import AboutPromo from "./Views/AboutPromo/AboutPromoView"
 import Services from "../../pages/Home/Views/Services/ServicesView"
 import References from "../../pages/Home/Views/References/ReferencesView"

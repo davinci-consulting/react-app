@@ -19,7 +19,7 @@ export default function Contact() {
                             <Styled.Title>Contact us</Styled.Title>
                             <Styled.Subtitle>Our friendly team would love to hear from you!</Styled.Subtitle>
                         </Styled.TitleGroup>
-                        <Styled.MultipleItem>
+                        <Styled.GroupItem>
                             <Styled.FormGroup>
                                 <Styled.Label htmlFor="firstName">First name</Styled.Label>
                                 <Styled.Input required id="firstName" type="text" placeholder="First Name" value={firstName} onChange={e => setFirstName(e.target.value)} />
@@ -28,7 +28,7 @@ export default function Contact() {
                                 <Styled.Label htmlFor="lastName">Last name</Styled.Label>
                                 <Styled.Input required id="lastName" type="text" placeholder="Last Name" value={lastName} onChange={e => setLastName(e.target.value)} />
                             </Styled.FormGroup>
-                        </Styled.MultipleItem>
+                        </Styled.GroupItem>
                         <Styled.FormGroup>
                             <Styled.Label htmlFor="mail">Email</Styled.Label>
                             <Styled.Input required id="mail" type="mail" placeholder="example@davinci-consulting.net" value={mail} onChange={e => setMail(e.target.value)} />

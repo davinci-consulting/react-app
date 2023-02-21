@@ -18,13 +18,13 @@ export const TitleGroup = styled.div`
     margin: 0 0 3.5rem;
 `
 
-export const WhiteTitle = styled.div`
+export const WhiteTitle = styled.h2`
     color: #ffffff;
     font: 500 3rem "Circular", sans-serif;
     text-align: center;
 `
 
-export const BlackTitle = styled.div`
+export const BlackTitle = styled.h2`
     color: #181a1e;
     font: 600 3.8rem "Circular", sans-serif;
     text-align: center;
@@ -55,13 +55,13 @@ export const NumberWrapper = styled.div`
     }
 `
 
-export const Number = styled.div`
+export const Number = styled.span`
     color: #ffffff;
     font: 600 3.4rem "Circular", sans-serif;
     text-align: center;
 `
 
-export const Text = styled.div`
+export const Text = styled.p`
     color: #ffffff;
     font: 500 1.2rem "Circular", sans-serif;
     text-align: center;

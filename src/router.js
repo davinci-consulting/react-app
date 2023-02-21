@@ -1,8 +1,9 @@
-import Navbar from "./components/Header/Navbar/NavbarView"
-import Home from "./pages/Home/HomeView"
-import Contact from "./pages/Contact/ContactView"
+import Navbar from "./components/Navbar/NavbarView"
 import Footer from "./components/Footer/FooterView"
+import Home from "./pages/Home/HomeView"
 import About from "./pages/About/AboutView"
+import Careers from "./pages/Careers/CareersView"
+import Contact from "./pages/Contact/ContactView"
 
 const Router = [
     {
@@ -10,12 +11,16 @@ const Router = [
         element: <main><Navbar /><Home /><Footer /></main>
     },
     {
-        path: 'contact',
-        element: <main><Navbar /><Contact /><Footer /></main>
-    },
-    {
         path: 'about',
         element: <main><Navbar /><About /><Footer /></main>
+    },
+    {
+        path: 'careers',
+        element: <main><Navbar /><Careers /><Footer /></main>
+    },
+    {
+        path: 'contact',
+        element: <main><Navbar /><Contact /><Footer /></main>
     }
 ]
 

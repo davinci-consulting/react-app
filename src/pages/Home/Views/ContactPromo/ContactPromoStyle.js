@@ -38,7 +38,7 @@ export const Container = styled.div`
     }
 `
 
-export const Title = styled.div`
+export const Title = styled.h2`
     color: #181a1e;
     font: 500 2.5rem "Circular", sans-serif;
     text-align: center;

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { ArrowRightLine } from "../../Icons/IconsView"
+import { ArrowRightLine } from "../../../../components/Icons/IconsView"
 import * as Styled from "./HeroStyle"
 
 export default function Hero() {

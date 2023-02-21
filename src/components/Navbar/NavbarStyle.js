@@ -1,9 +1,8 @@
 import styled from "styled-components"
 
 export const Navbar = styled.nav`
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -11,6 +10,7 @@ export const Navbar = styled.nav`
     border-bottom: 1px solid #e5e9ed;
     padding: 2rem 0;
     z-index: 6;
+    transition: .2s;
 `
 
 export const Container = styled.div`

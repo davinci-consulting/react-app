@@ -39,17 +39,17 @@ export const TitleGroup = styled.div`
     margin: 0 0 2rem;
 `
 
-export const Title = styled.div`
+export const Title = styled.h2`
     color: #181a1e;
     font: 500 2.5rem "Circular", sans-serif;
 `
 
-export const Subtitle = styled.div`
+export const Subtitle = styled.h3`
     color: #181a1e;
     font: 400 1.1rem "Circular", sans-serif;
 `
 
-export const MultipleItem = styled.div`
+export const GroupItem = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -167,19 +167,19 @@ export const Locations = styled.div`
     grid-gap: 3rem 6rem;
 `
 
-export const LocationsSubtitle = styled.div`
+export const LocationsSubtitle = styled.h4`
    color: #181a1e;
     font: 500 1.1rem "Circular",sans-serif;
     margin: 0 0 .5rem;
 `
 
-export const LocationsTitle = styled.div`
+export const LocationsTitle = styled.h3`
     color: #181a1e;
     font: 500 1.6rem "Circular", sans-serif;
     margin: 0 0 1.1rem;
 `
 
-export const LocationsText = styled.div`
+export const LocationsText = styled.p`
     color: #55585e;
     font: 400 1.2rem "Circular", sans-serif;
 `

@@ -70,7 +70,7 @@ export const SectionSummary = styled.div`
     background-color: #f6f9fc;
 `
 
-export const SummaryTitle = styled.div`
+export const SummaryTitle = styled.h2`
     color: #181a1e;
     font: 600 2rem "Circular", sans-serif;
     width: 40rem;
