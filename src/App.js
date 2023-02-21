@@ -1,5 +1,5 @@
-import { useRoutes, useLocation } from 'react-router-dom'
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
+import { useRoutes, useLocation } from "react-router-dom"
+import { TransitionGroup, CSSTransition } from "react-transition-group"
 import Router from "./router"
 
 export default function App() {

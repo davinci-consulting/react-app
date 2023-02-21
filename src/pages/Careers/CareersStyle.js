@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const  Careers = styled.div`
-    width: auto;
+    position: relative;
 `
 
 export const  Container = styled.div`
@@ -154,7 +154,7 @@ export const  ButtonGroup = styled.div`
     gap: 1rem;
 `
 
-export const TeamImageContent = styled.div`
+export const TeamImageWrapper = styled.div`
     position: relative;
     margin: 0 0 1rem;
     overflow: hidden;
@@ -167,7 +167,7 @@ export const TeamImage = styled.img`
     z-index: 0;
 `
 
-export const TeamImageAbsolute = styled.div`
+export const TeamImageOver = styled.div`
     position: absolute;
     top: 0;
     left: 0;
@@ -226,7 +226,7 @@ export const PositionsGroupTitle = styled.div`
     justify-content: center;
     align-items: center;
     gap: .3rem;
-    margin: 0 0 2.5rem;
+    margin: 0 0 5rem;
 `
 
 export const PositionTitle = styled.h2`

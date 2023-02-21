@@ -1,5 +1,5 @@
+import { ServicesData } from "../../../../data/Services"
 import * as Styled from "./ServicesStyle"
-import { ServicesData } from '../../../../data/Services'
 
 export default function Services() {
     return (

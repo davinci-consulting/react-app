@@ -11,10 +11,10 @@ export default function About() {
                 <Styled.SectionHead>
                     <Styled.HeadPreHeadline>About davinci-consulting</Styled.HeadPreHeadline>
                     <Styled.HeadHeadline>We’re creating a world where technology is no longer a barrier to building a successful business online</Styled.HeadHeadline>
-                    <Styled.HeadImageContent>
+                    <Styled.HeadImageWrapper>
                         <Styled.HeadImage src={AboutImage} />
-                        <Styled.HeadImageAbsolute />
-                    </Styled.HeadImageContent>
+                        <Styled.HeadImageOver />
+                    </Styled.HeadImageWrapper>
                 </Styled.SectionHead>
                 <Styled.SectionSummary>
                     <Styled.SummaryTitle>Kajabi’s industry-leading all-in-one platform makes it simple to create a successful business online.</Styled.SummaryTitle>
@@ -29,16 +29,16 @@ export default function About() {
                     <Styled.MissionHeadline>Empower knowledge entrepreneurs who are serious about their business to achieve success online.</Styled.MissionHeadline>
                 </Styled.SectionMission>
                 <Styled.SectionHiring>
-                    <Styled.HiringTextWrapper>
-                        <Styled.HiringTextContent>
+                    <Styled.HiringTextContainer>
+                        <Styled.HiringTextWrapper>
                             <Styled.HiringText>Join <Styled.HiringBoldText>davinci-consulting</Styled.HiringBoldText></Styled.HiringText>
                             <NavLink to="/careers" className="hiring-button">Careers <ArrowRightLine width="22px" height="22px" fill="none" stroke="#000" strokeWidth="2px" /> </NavLink>
-                        </Styled.HiringTextContent>
-                    </Styled.HiringTextWrapper>
-                    <Styled.HiringImageContent>
+                        </Styled.HiringTextWrapper>
+                    </Styled.HiringTextContainer>
+                    <Styled.HiringImageWrapper>
                         <Styled.HiringImage src={HiringImage} />
-                        <Styled.HiringImageAbsolute />
-                    </Styled.HiringImageContent>
+                        <Styled.HiringImageOver />
+                    </Styled.HiringImageWrapper>
                 </Styled.SectionHiring>
             </Styled.Container>
         </Styled.About>

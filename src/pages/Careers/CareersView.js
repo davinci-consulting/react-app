@@ -27,34 +27,34 @@ export default function Careers() {
                 <Styled.SectionTeam>
                 <Swiper pagination={{ clickable: true }} modules={[Pagination]}>
                     <SwiperSlide>
-                        <Styled.TeamImageContent>
+                        <Styled.TeamImageWrapper>
                             <Styled.TeamImage src={CareersImage} />
-                            <Styled.TeamImageAbsolute />
-                        </Styled.TeamImageContent>
+                            <Styled.TeamImageOver />
+                        </Styled.TeamImageWrapper>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Styled.TeamImageContent>
+                        <Styled.TeamImageWrapper>
                             <Styled.TeamImage src={CareersImage} />
-                            <Styled.TeamImageAbsolute />
-                        </Styled.TeamImageContent>
+                            <Styled.TeamImageOver />
+                        </Styled.TeamImageWrapper>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Styled.TeamImageContent>
+                        <Styled.TeamImageWrapper>
                             <Styled.TeamImage src={CareersImage} />
-                            <Styled.TeamImageAbsolute />
-                        </Styled.TeamImageContent>
+                            <Styled.TeamImageOver />
+                        </Styled.TeamImageWrapper>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Styled.TeamImageContent>
+                        <Styled.TeamImageWrapper>
                             <Styled.TeamImage src={CareersImage} />
-                            <Styled.TeamImageAbsolute />
-                        </Styled.TeamImageContent>
+                            <Styled.TeamImageOver />
+                        </Styled.TeamImageWrapper>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Styled.TeamImageContent>
+                        <Styled.TeamImageWrapper>
                             <Styled.TeamImage src={CareersImage} />
-                            <Styled.TeamImageAbsolute />
-                        </Styled.TeamImageContent>
+                            <Styled.TeamImageOver />
+                        </Styled.TeamImageWrapper>
                     </SwiperSlide>
                 </Swiper>
                     <Styled.TeamText>Think you’d be a good fit<br />for the Kajabi team?</Styled.TeamText>

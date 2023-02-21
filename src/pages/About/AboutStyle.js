@@ -38,7 +38,7 @@ export const HeadHeadline = styled.div`
     text-align: center;
 `
 
-export const HeadImageContent = styled.div`
+export const HeadImageWrapper = styled.div`
     position: relative;
     width: 1350px;
     border-radius: .5rem;
@@ -51,7 +51,7 @@ export const HeadImage = styled.img`
     z-index: 0;
 `
 
-export const HeadImageAbsolute = styled.div`
+export const HeadImageOver = styled.div`
     position: absolute;
     top: 0;
     left: 0;
@@ -111,14 +111,14 @@ export const SectionHiring = styled.div`
     background-color: #f6f9fc;
 `
 
-export const HiringTextWrapper = styled.div`
+export const HiringTextContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 `
 
-export const HiringTextContent = styled.div`
+export const HiringTextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     width: max-content;
@@ -155,7 +155,7 @@ export const HiringBoldText = styled.b`
     font: 600 2.8rem "Circular", sans-serif;
 `
 
-export const HiringImageContent = styled.div`
+export const HiringImageWrapper = styled.div`
     position: relative;
     width: 50%;
 `
@@ -166,7 +166,7 @@ export const HiringImage = styled.img`
     z-index: 0;
 `
 
-export const HiringImageAbsolute = styled.div`
+export const HiringImageOver = styled.div`
     position: absolute;
     top: 0;
     left: 0;

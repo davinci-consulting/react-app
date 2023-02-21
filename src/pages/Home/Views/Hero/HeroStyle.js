@@ -15,7 +15,7 @@ export const Container = styled.div`
     width: 1350px;
 `
 
-export const HeroTextContent = styled.div`
+export const HeroTextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +63,7 @@ export const ButtonGroup = styled.div`
     }
 `
 
-export const HeroImageContent = styled.div`
+export const HeroImageWrapper = styled.div`
     width: 500px;
     height: 500px;
 `
