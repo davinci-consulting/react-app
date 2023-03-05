@@ -121,7 +121,7 @@ export const  ButtonGroup = styled.div`
     gap: 1rem;
 `
 
-export const  Button = styled.div`
+export const  Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;

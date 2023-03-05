@@ -15,6 +15,11 @@ html, body {
     height: 100%;
 }
 
+button, input[type=submit] {
+    background: none;
+    background-color: transparent;
+}
+
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
