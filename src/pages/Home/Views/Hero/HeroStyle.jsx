@@ -36,29 +36,29 @@ export const ButtonGroup = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+`
 
-    .hero-btn {
-        display: flex;
-        align-items: center;
-        gap: .5rem;
-        background-color: #60a4fc;
-        box-shadow: 5px 5px 0 0 #00000026;
-        border-radius: .3rem;
-        padding: 1rem 2.1rem;
-        color: #FFFFFF;
-        font: 500 1.1rem "Circular", sans-serif;
-        transition: .2s;
+export const Button = styled.button`
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: #60a4fc;
+    box-shadow: 5px 5px 0 0 #00000026;
+    border-radius: .3rem;
+    padding: 1rem 2.1rem;
+    color: #FFFFFF;
+    font: 500 1.1rem "Circular", sans-serif;
+    transition: .2s;
 
-        &:hover {
-            background-color: #5398f1;
-            cursor: pointer;
-        }
+    &:hover {
+        background-color: #5398f1;
+        cursor: pointer;
+    }
 
-        &:active {
-            background-color: #377edb;
-            box-shadow: 0 0 0 0 #00000026;
-            transform: translate(5px, 5px);
-        }
+    &:active {
+        background-color: #377edb;
+        box-shadow: 0 0 0 0 #00000026;
+        transform: translate(5px, 5px);
     }
 `
 

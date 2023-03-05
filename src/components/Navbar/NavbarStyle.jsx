@@ -27,6 +27,25 @@ export const Logo = styled.img`
 export const NavList = styled.div`
     display: flex;
     gap: 1.5rem;
+
+    .active {
+        .nav-item {
+            color: #60a4fc;
+
+            &::after {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+                background-color: #60a4fc;
+                transform: scaleX(1);
+                transform-origin: left;
+                transition: transform .5s;
+                content: '';
+            }
+        }
+    }
 `
 
 export const NavItem = styled.span`
@@ -46,23 +65,6 @@ export const NavItem = styled.span`
         transform-origin: right;
         transition: transform .5s;
         content: '';
-    }
-
-    &.active {
-        color: #60a4fc;
-
-        &::after {
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 2px;
-            background-color: #60a4fc;
-            transform: scaleX(1);
-            transform-origin: left;
-            transition: transform .5s;
-            content: '';
-        }
     }
 
     &:hover {

@@ -1,4 +1,4 @@
-import { NavLink, Outlet, useLocation } from "react-router-dom"
+import { Link, Outlet, useLocation } from "react-router-dom"
 import { ServicesData } from "../../data/Services"
 import * as Styled from "./ServicesStyle"
 
@@ -17,11 +17,11 @@ export const Services = () => {
                     </Styled.GroupTitle>
                     <Styled.ServicesWrapper>
                         {ServicesData.map((service, index) => {
-                            return <NavLink key={index} to={`/services${service.path}`} className={`services-item ${CurrentPath === "/services" + service.path ? "active-card" : ""} `}>
+                            return <Link key={index} to={`/services${service.path}`} className={`services-item ${CurrentPath === "/services" + service.path ? "active-card" : ""} `}>
                                 <h2 className="services-item-title">{service.title}</h2>
                                 <p className="services-item-text">{service.text}</p>
                                 <span className="services-item-button">{ CurrentPath === "/services" + service.path ? "Viewing" : "Explore →" }</span>
-                            </NavLink>
+                            </Link>
                         })}
                     </Styled.ServicesWrapper>
                 </Styled.SectionAllServices>

@@ -1,5 +1,5 @@
 import { Suspense } from "react"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { ArrowRightLine } from "../../components/Icons/IconsView"
 import * as Styled from "./AboutStyle"
 
@@ -33,10 +33,10 @@ export const About = () => {
                     <Styled.HiringTextContainer>
                         <Styled.HiringTextWrapper>
                             <Styled.HiringText>Join <Styled.HiringBoldText>davinci-consulting</Styled.HiringBoldText></Styled.HiringText>
-                            <NavLink to="/careers">
+                            <Link to="/careers">
                                 <Styled.HiringButton>Careers <ArrowRightLine width="22px" height="22px" fill="none" stroke="#000" strokeWidth="2px" />
                                 </Styled.HiringButton>
-                            </NavLink>
+                            </Link>
                         </Styled.HiringTextWrapper>
                     </Styled.HiringTextContainer>
                     <Styled.HiringImageWrapper>

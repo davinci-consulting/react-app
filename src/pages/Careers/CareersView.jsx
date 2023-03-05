@@ -1,7 +1,6 @@
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from "swiper"
-import { Link } from "react-scroll"
 import * as Styled from "./CareersStyle"
 import "swiper/css"
 import "swiper/css/pagination"
@@ -92,15 +91,15 @@ export const Careers = () => {
                             <Styled.PositionsJobTitle>Business Development</Styled.PositionsJobTitle>
                             <Styled.PositionsJobList>
                                 <Styled.PositionsJobItem>
-                                    <NavLink to="/">
+                                    <Link to="/">
                                         <Styled.PositionsJobItemTitle>Business Development Lead, Duolingo English Test</Styled.PositionsJobItemTitle>
-                                    </NavLink>
+                                    </Link>
                                     <Styled.PositionsJobItemType>Singapore (Remote)</Styled.PositionsJobItemType>
                                 </Styled.PositionsJobItem>
                                 <Styled.PositionsJobItem>
-                                    <NavLink to="/">
+                                    <Link to="/">
                                         <Styled.PositionsJobItemTitle>Business Development Lead, Duolingo English Test</Styled.PositionsJobItemTitle>
-                                    </NavLink>
+                                    </Link>
                                     <Styled.PositionsJobItemType>Singapore (Remote)</Styled.PositionsJobItemType>
                                 </Styled.PositionsJobItem>
                             </Styled.PositionsJobList>
@@ -109,15 +108,15 @@ export const Careers = () => {
                             <Styled.PositionsJobTitle>Business Development</Styled.PositionsJobTitle>
                             <Styled.PositionsJobList>
                                 <Styled.PositionsJobItem>
-                                    <NavLink to="/">
+                                    <Link to="/">
                                         <Styled.PositionsJobItemTitle>Business Development Lead, Duolingo English Test</Styled.PositionsJobItemTitle>
-                                    </NavLink>
+                                    </Link>
                                     <Styled.PositionsJobItemType>Singapore (Remote)</Styled.PositionsJobItemType>
                                 </Styled.PositionsJobItem>
                                 <Styled.PositionsJobItem>
-                                    <NavLink to="/">
+                                    <Link to="/">
                                         <Styled.PositionsJobItemTitle>Business Development Lead, Duolingo English Test</Styled.PositionsJobItemTitle>
-                                    </NavLink>
+                                    </Link>
                                     <Styled.PositionsJobItemType>Singapore (Remote)</Styled.PositionsJobItemType>
                                 </Styled.PositionsJobItem>
                             </Styled.PositionsJobList>

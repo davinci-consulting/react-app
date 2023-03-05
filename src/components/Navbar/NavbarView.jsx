@@ -5,28 +5,28 @@ export const Navbar = () => {
     return (
         <Styled.Navbar>
             <Styled.Container>
-                <NavLink to="/">
+                <Link to="/">
                     <Styled.Logo src="/assets/images/logo.svg" />
-                </NavLink>
+                </Link>
                 <Styled.NavList>
-                        <Link to="/" >
-                            <Styled.NavItem>Home</Styled.NavItem>
-                        </Link>
-                        <Link to="/about" >
-                            <Styled.NavItem>About</Styled.NavItem>
-                        </Link>
-                        <Link to="/services">
-                            <Styled.NavItem>Services</Styled.NavItem>
-                        </Link>
-                        <Link to="/careers">
-                            <Styled.NavItem>Careers</Styled.NavItem>
-                        </Link>
-                        <Link to="/contact">
-                            <Styled.NavItem>Contact</Styled.NavItem>
-                        </Link>
-                        <Link to="/intern">
-                            <Styled.NavItem>Intern</Styled.NavItem>
-                        </Link>
+                        <NavLink to="/">
+                            <Styled.NavItem className="nav-item">Home</Styled.NavItem>
+                        </NavLink>
+                        <NavLink to="/about">
+                            <Styled.NavItem className="nav-item">About</Styled.NavItem>
+                        </NavLink>
+                        <NavLink to="/services">
+                            <Styled.NavItem className="nav-item">Services</Styled.NavItem>
+                        </NavLink>
+                        <NavLink to="/careers">
+                            <Styled.NavItem className="nav-item">Careers</Styled.NavItem>
+                        </NavLink>
+                        <NavLink to="/contact">
+                            <Styled.NavItem className="nav-item">Contact</Styled.NavItem>
+                        </NavLink>
+                        <NavLink to="/intern">
+                            <Styled.NavItem className="nav-item">Intern</Styled.NavItem>
+                        </NavLink>
                 </Styled.NavList>
             </Styled.Container>
         </Styled.Navbar>
