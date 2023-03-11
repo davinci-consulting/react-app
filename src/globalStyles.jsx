@@ -18,6 +18,10 @@ html, body {
 button, input[type=submit] {
     background: none;
     background-color: transparent;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 img, picture, video, canvas, svg {
