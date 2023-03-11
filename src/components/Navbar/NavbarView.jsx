@@ -24,7 +24,7 @@ export const Navbar = () => {
                         <NavLink to="/contact">
                             <Styled.NavItem className="nav-item">Contact</Styled.NavItem>
                         </NavLink>
-                        <NavLink to="/intern">
+                        <NavLink to="/internal">
                             <Styled.NavItem className="nav-item">Internal</Styled.NavItem>
                         </NavLink>
                 </Styled.NavList>

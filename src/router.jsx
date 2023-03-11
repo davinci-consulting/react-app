@@ -17,6 +17,7 @@ import { InternetOfThings } from "./pages/Services/Views/InternetOfThingsView"
 import { ArtificialIntelligence } from "./pages/Services/Views/ArtificialIntelligenceView"
 import { ContentCreating } from "./pages/Services/Views/ContentCreatingView"
 import { AdsAndSocialMedia } from "./pages/Services/Views/AdsAndSocialMediaView"
+import { Internal } from "./pages/Internal/InternalView"
 
 const Router = [
     {
@@ -88,6 +89,10 @@ const Router = [
     {
         path: 'contact',
         element: <main><Navbar /><Contact /><Footer /></main>
+    },
+    {
+        path: 'internal',
+        element: <main><Navbar /><Internal /><Footer /></main>
     }
 ]
 
